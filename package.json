@@ -1,0 +1,46 @@
+{
+  "name": "loopback-connector-microsoft-graph-mail",
+  "version": "0.0.0",
+  "description": "Loopback Connector for Microsoft Graph Mail API",
+  "homepage": "",
+  "author": {
+    "name": "Benjamin Kroeger",
+    "email": "benjamin.kroeger@gmail.com",
+    "url": ""
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "loopback",
+    "microsoft",
+    "ms",
+    "graph",
+    "mail"
+  ],
+  "devDependencies": {
+    "eslint": "^2.7.0",
+    "eslint-config-oniyi": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^2.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-mocha": "^2.0.0",
+    "gulp-nsp": "^2.1.0",
+    "gulp-plumber": "^1.0.0"
+  },
+  "repository": "benkroeger/loopback-connector-microsoft-graph-mail",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "loopback-connector": "^2.3.0",
+    "oniyi-http-client": "0.0.3",
+    "oniyi-http-plugin-credentials": "0.0.1",
+    "oniyi-logger": "^0.4.2"
+  }
+}
