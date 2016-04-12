@@ -33,7 +33,6 @@
   },
   "repository": "benkroeger/loopback-connector-microsoft-graph-mail",
   "scripts": {
-    "prepublish": "gulp prepublish",
     "test": "gulp"
   },
   "license": "Apache-2.0",
