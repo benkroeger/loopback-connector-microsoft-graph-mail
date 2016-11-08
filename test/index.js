@@ -1,7 +1,7 @@
+/* eslint-env node, mocha */
 'use strict';
 
 const assert = require('assert');
-const loopbackConnectorMicrosoftGraphMail = require('../lib');
 
 describe('loopback-connector-microsoft-graph-mail', () => {
   it('should have unit test!', () => {
